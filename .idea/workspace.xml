@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7dbb3a-a913-418d-aa46-07e6b0c4b11b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Array/Array.md" afterPath="$PROJECT_DIR$/src/Array/Array.md" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/HashTable.md" afterPath="$PROJECT_DIR$/src/HashTable/HashTable.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,12 +39,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashTable.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HashTable.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTable/HashTable.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="360">
-                <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+                <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -72,12 +72,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Array.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Array.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/Array.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="273">
-                <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <first_editor relative-caret-position="431">
+                <caret line="24" column="5" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="24" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -138,9 +138,9 @@
         <option value="$PROJECT_DIR$/src/Math/Math.md" />
         <option value="$PROJECT_DIR$/src/HashTable/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/Array/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/HashTable/HashTable.md" />
         <option value="$PROJECT_DIR$/src/Array/RemoveDuplicatesfromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/Array/Array.md" />
+        <option value="$PROJECT_DIR$/src/HashTable/HashTable.md" />
       </list>
     </option>
   </component>
@@ -350,12 +350,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522005898126</updated>
-      <workItem from="1522005903448" duration="6035000" />
+      <workItem from="1522005903448" duration="6075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6035000" />
+    <option name="totallyTimeSpent" value="6075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="60" width="1537" height="912" extended-state="6" />
@@ -488,17 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTable/HashTable.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/RemoveDuplicatesfromSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -520,8 +509,19 @@
     <entry file="file://$PROJECT_DIR$/src/Array/Array.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="273">
-            <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <first_editor relative-caret-position="431">
+            <caret line="24" column="5" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="24" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTable/HashTable.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
