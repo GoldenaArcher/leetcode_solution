@@ -55,3 +55,5 @@
 
         The problem's related topics are Array and Two Pointers, so using Two Pointers seems to be the
     solution for this problem.
+        The brute force to solve this problem is to loop through all the posiible combination of both 
+    index(n and ai) to find the maximum. However, the time complexity for this will be O(n²).

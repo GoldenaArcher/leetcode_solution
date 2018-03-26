@@ -23,3 +23,12 @@
             ...
             Finally, the modified array nums = [1, 2, 3, 4, 5, 4, 5], and the length of the modified non-
         repeated array is j+1 = 5 (the actual length starts with 1 rather than 0).
+
+## Medium
+### 11. Container With Most Water
+*Method used to solve this problem*: Two Pointers.
+
+*Idea*:
+
+        The problem's related topics are Array and Two Pointers, so using Two Pointers seems to be the
+    solution for this problem.
