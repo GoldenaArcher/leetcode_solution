@@ -5,6 +5,7 @@ As of Mar. 25, 2018, total 807 problems on LeetCode.
 ### Solved
 #### Easy
     1. Two Sum
+    26. Remove Duplicates from Sorted Array
     
 ## Dynamic Programming(0/103)
 
