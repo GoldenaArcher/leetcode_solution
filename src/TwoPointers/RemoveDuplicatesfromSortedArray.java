@@ -1,4 +1,4 @@
-package Array;
+package TwoPointers;
 
 public class RemoveDuplicatesfromSortedArray {
     /**

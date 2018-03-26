@@ -1,7 +1,7 @@
 # leetcode_solution
 As of Mar. 25, 2018, total 807 problems on LeetCode.
 
-## Array(1/127)
+## Array(2/127)
 ### Solved
 #### Easy
     1. Two Sum
