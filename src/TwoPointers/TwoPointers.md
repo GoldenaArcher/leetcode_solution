@@ -24,6 +24,24 @@
             Finally, the modified array nums = [1, 2, 3, 4, 5, 4, 5], and the length of the modified non-
         repeated array is j+1 = 5 (the actual length starts with 1 rather than 0).
 
+### 27. Remove Element
+*Method used to solve this problem*: Two Pointers.
+
+*Idea*:
+
+        The idea of this problem is similar to #26 Remove Duplicates from Sorted Array. It is the same
+    approach.
+    
+### 283. Move Zeroes
+*Method used to solve this problem*: Two Pointers.
+
+*Idea*:
+
+        The approach of current issue is similar to 27. Remove Element and # 26. Remove Duplicates from
+    Sorted Array. Originally I used two loops, it is still O(n) as O(2n) is same as O(n), but it was only
+    sub-optimal. The more optimal method is to swap two values with different pointers in the array if 
+    the current values != 0.
+
 ## Medium
 ### 11. Container With Most Water
 *Method used to solve this problem*: Two Pointers.
