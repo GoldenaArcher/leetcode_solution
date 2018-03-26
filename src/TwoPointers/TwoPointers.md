@@ -31,4 +31,64 @@
 *Idea*:
 
         The problem's related topics are Array and Two Pointers, so using Two Pointers seems to be the
-    solution for this problem.
+            solution for this problem.
+                The brute force to solve this problem is to loop through all the posiible combination of both 
+            index(n and ai) to find the maximum. However, the time complexity for this will be O(n²).
+                The other approach is to use Two Pointers, which loops the entire array only once thus the time
+            complexity is O(n).
+                Here are diagrams to help understanding the problem. The x-axis is the length of the array, and
+            the value of y-axis is the correspond value in the array with given index(x).
+                In order to find the max area, the original left value is set at index 0(correspondingly the 1st
+            value, y=1), and the right is set at index 9(correspondingly the last value, y = 10). As the hight
+            of the area is bounded by the minimum value between left and right, there is no point to keep the
+            smaller value in the equation as the width only gets smaller and smaller. Thus, from original to step
+            1, the pointer right moves toward left and calculates the new area.
+                
+                Original:
+                 y
+                 10                                            |
+                 9                              |              |
+                 8          |                   |              |
+                 7          |                   |              |
+                 6     |    |              |    |    |         |
+                 5     |    |         |    |    |    |    |    |
+                 4     |    |    |    |    |    |    |    |    |
+                 3     |    |    |    |    |    |    |    |    |    |
+                 2     |    |    |    |    |    |    |    |    |    |
+                 1     |    |    |    |    |    |    |    |    |    |
+                 0     1    2    3    4    5    6    7    8    9    10 ->x
+                      left                                         right
+                 Step 1:
+                 y
+                 10                                            |
+                 9                              |              |
+                 8          |                   |              |
+                 7          |                   |              |
+                 6     |    |              |    |    |         |
+                 5     |    |         |    |    |    |    |    |
+                 4     |    |    |    |    |    |    |    |    |
+                 3     |    |    |    |    |    |    |    |    |
+                 2     |    |    |    |    |    |    |    |    |
+                 1     |    |    |    |    |    |    |    |    |
+                 0     1    2    3    4    5    6    7    8    9 ->x
+            
+                 Step 2:
+                 y
+                 10                                       |
+                 9                         |              |
+                 8     |                   |              |
+                 7     |                   |              |
+                 6     |              |    |    |         |
+                 5     |         |    |    |    |    |    |
+                 4     |    |    |    |    |    |    |    |
+                 3     |    |    |    |    |    |    |    |
+                 2     |    |    |    |    |    |    |    |
+                 1     |    |    |    |    |    |    |    |
+                 0     2    3    4    5    6    7    8    9 ->x
+            
+                 ...
+                 
+                 Keep repeating the process until left meets right. At this point, the whole array has been looped
+             once. Exchanging the index will only results in repeaded value.
+                 The Space Complexity for this problem is O(1) as only larger value of calculated area and current 
+             value is kept. 

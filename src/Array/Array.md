@@ -23,6 +23,8 @@
         The Space Complexity for this problem is: O(n).
                 In the worst case, nth items have been stored in the HashMap.
      
+## Medium
+
 ### 26. Remove Duplicates from Sorted Array
 *Method used to solve this problem*: Two Pointers.
 
