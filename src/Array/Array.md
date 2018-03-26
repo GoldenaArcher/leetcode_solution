@@ -111,7 +111,7 @@
     
          ...
          
-         Keep repeating the process until left meets right. At this point, the whole array has been 
-     looped once. Exchanging the index will only results in repeaded value.
-         The Space Complexity for this problem is O(1) as only larger value of calculated area and
-     current value is kept. 
+         Keep repeating the process until left meets right. At this point, the whole array has been looped
+     once. Exchanging the index will only results in repeaded value.
+         The Space Complexity for this problem is O(1) as only larger value of calculated area and current 
+     value is kept. 
