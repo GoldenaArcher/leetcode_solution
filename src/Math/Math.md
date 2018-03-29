@@ -15,3 +15,5 @@
 
 
 ### 9. Palindrome Number
+
+## Medium
