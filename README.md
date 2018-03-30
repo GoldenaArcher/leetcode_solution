@@ -1,19 +1,24 @@
 # leetcode_solution
-As of Mar. 25, 2018, total 807 problems on LeetCode.
+As of Mar. 30, 2018, total 807 problems on LeetCode.
 
-## Array(2/127)
+## Array(5/127)
 ### Solved
 #### Easy
     1. Two Sum
+    11. Container With Most Water
     26. Remove Duplicates from Sorted Array
+    27. Remove Element
+    283. Move Zeroes
     
 ## Dynamic Programming(0/103)
 
-## String(0/97)
+## String(1/97)
+    8. String to Integer (atoi)
 
 ## Math(2/88)
 ### Easy
     7. Reverse Integer
+    8. String to Integer (atoi)
     9. Palindrome Number
     
 ## Hash Table(1/82)

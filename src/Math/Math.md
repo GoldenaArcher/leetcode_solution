@@ -29,7 +29,7 @@
 
 
 ## Medium
-### 8. 
+### 8. String to Integer (atoi)
 *Method used to solve this problem*: loop.
 
 *Idea*:
