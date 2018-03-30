@@ -1,7 +1,7 @@
 # Math
 
 ## Easy
-    ### 7. Reverse Integer
+### 7. Reverse Integer
 *Method used to solve this problem*: module + loop.
 
 *Idea*:
@@ -13,8 +13,20 @@
     divided by 10 is equal to the result. If so, keep processing until the original value(or the copy of it)
     runs to 0. Otherwise, return an invalid value as the integer has overflown.
 
+        
+
 
 ### 9. Palindrome Number
+*Method used to solve this problem*: module + loop.
+
+*Idea*:
+
+        The problem is very easy. The integer is only palindrome when in the format: 12321 or 123321. Therefore,
+    the last half of the integer can be taken out as in problem 7 Reverse Integer. In the case of 123321, now we
+    will have 123 and 123; in the case 12321, we will have 123 and 12. Return true if temporary variable/10 
+    equals to x or two values are identical.
+        Corner case: x is negative or integer ends with 0.
+
 
 ## Medium
 ### 8. 
