@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7dbb3a-a913-418d-aa46-07e6b0c4b11b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Math/Math.md" afterPath="$PROJECT_DIR$/src/Math/Math.md" />
-      <change beforePath="$PROJECT_DIR$/src/Math/PalindromeNumber.java" afterPath="$PROJECT_DIR$/src/Math/PalindromeNumber.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/src/Math/Math.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+              <first_editor relative-caret-position="630">
+                <caret line="38" column="108" lean-forward="false" selection-start-line="38" selection-start-column="108" selection-end-line="38" selection-end-column="108" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -354,12 +354,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522005898126</updated>
       <workItem from="1522005903448" duration="25177000" />
-      <workItem from="1522295992752" duration="2913000" />
+      <workItem from="1522295992752" duration="3138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28090000" />
+    <option name="totallyTimeSpent" value="28315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="60" width="1537" height="912" extended-state="6" />
@@ -697,8 +697,8 @@
     <entry file="file://$PROJECT_DIR$/src/Math/Math.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <first_editor relative-caret-position="630">
+            <caret line="38" column="108" lean-forward="false" selection-start-line="38" selection-start-column="108" selection-end-line="38" selection-end-column="108" />
             <folding />
           </first_editor>
           <second_editor />
