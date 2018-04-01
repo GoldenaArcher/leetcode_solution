@@ -69,6 +69,12 @@
         It is important to return mid directly if mid == target, otherwise it will still take 6ms 
     rather than 5 ms.
     
+### 53. Maximum Subarray
+*Method used to solve this problem*: Divide and Conquer, Dynamic Programming.
+
+*Idea*:
+
+    
 ### 283. Move Zeroes
 *Method used to solve this problem*: Two Pointers.
 
