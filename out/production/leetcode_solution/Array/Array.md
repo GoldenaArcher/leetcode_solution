@@ -54,6 +54,44 @@
         The idea of this problem is similar to #26 Remove Duplicates from Sorted Array. It is the same
     approach.
     
+### 35. Search Insert Position
+*Method used to solve this problem*: Binary Search.
+
+*Idea*:
+
+        First time I used loop to solve this problem (time complexity O(n)), but the time is about 
+    50%-60% of the average speed and was not ideal. Once I clicked on the related topics, there is 
+    binary search, and it is obvious the question can be solved by using binary search (time 
+    complexity O(log(n)).
+        For binary search, as the question stated that the array will be sorted, so the condition is 
+    set as (low <= high), as if using (low < high), it will return wrong index. Once the middle number
+    is identified, check the value is smaller or larger, then update low or high.
+        It is important to return mid directly if mid == target, otherwise it will still take 6ms 
+    rather than 5 ms.
+    
+### 53. Maximum Subarray
+*Method used to solve this problem*: Divide and Conquer, Dynamic Programming.
+
+*Idea*:
+
+        The idea is to use dynamic programming to solve this problem, and 2 variables needs to be used
+    in this case. One is to store local maximum or the current count, and the other is used as the 
+    maximum number overall. 
+        Taken [-2,1,-3,4,-1,2,1,-5,4] as an example.
+        When the index is at 0, the local and global max value is -2. 
+        When the index is at 1, by comparing (-2 + 1) and 1, the local and global max value is 1.
+        When the index is at 2, by comparing (1 + -3) and -3, the local max is -2, but the global max 
+    stays at 1.
+        ...
+        The process is repeated until finishing and comparing the whole array. Thus the time complexity
+    is O(n), and the space complexity is o(1).
+        
+### 118. Pascal's Triangle
+*Method used to solve this problem*: Brute Force.
+
+*Idea*:
+
+    
 ### 283. Move Zeroes
 *Method used to solve this problem*: Two Pointers.
 

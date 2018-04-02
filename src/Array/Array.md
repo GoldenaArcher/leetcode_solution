@@ -86,6 +86,34 @@
         The process is repeated until finishing and comparing the whole array. Thus the time complexity
     is O(n), and the space complexity is o(1).
         
+### 118. Pascal's Triangle
+*Method used to solve this problem*: Brute Force.
+
+*Idea*:
+
+        First to create a list of list for the return result, then create a list to hold the value of 
+    each line, then loop through the given number. In the loop, each time append number 1 to index 0.
+    In a second loop, loop from 1 to row's size -1, as the 1st and last value of each row is always 1.
+        Taken 5 as an example.
+        Index 0:
+          [1], as it doesn't enter to 2nd loop.
+        Index 1:
+          [1, 1], as it doesn't enter to 2nd loop neither.
+        Index 3:
+          [1, 1, 1] after 1st append.
+            As entering the 2nd loop, the current value is updated with the sum of current value and
+          next.
+          [1, 2(1+1), 1]
+        Index 4:
+          [1, 1, 2, 1] after 1st append.
+          [1, 3, 3, 1] after 2nd loop.
+        
+        It is important that when add the current row to the return result, always create a new 
+    ArrayList as the pointer will point to the same value, thus creat the same line each time. Also, not
+    the value before the current index(2nd loop), but the next value as the previous value will be 
+    updated.
+        Time complexity is O(n²) as there is 1 nested loop. Space complexity is O(n²) as the space of 
+    triangle is n×n/2 which is still n².
 
     
 ### 283. Move Zeroes
